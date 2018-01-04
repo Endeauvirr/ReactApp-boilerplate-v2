@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { Header } from '../../containers/Header';
+import { Header } from '../../components/Header';
 
 let startLogout;
 let photoURL;

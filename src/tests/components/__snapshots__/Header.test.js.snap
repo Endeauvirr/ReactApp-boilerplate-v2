@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render Header container correctly 1`] = `
+<header
+  className="loggedUser__header--wrapper"
+>
+  <div
+    className="header--nav-section"
+  >
+    <h1
+      className="header--logo"
+    >
+      <NavLink
+        activeClassName="active"
+        ariaCurrent="true"
+        to="/dashboard"
+      >
+        Boilerplate App
+      </NavLink>
+    </h1>
+    <ul
+      className="header--navigation"
+    >
+      <li>
+        <NavLink
+          activeClassName="is-active"
+          ariaCurrent="true"
+          exact={true}
+          to="/dashboard"
+        >
+          Dashboard
+        </NavLink>
+      </li>
+    </ul>
+  </div>
+  <div
+    className="header--user-section"
+  >
+    <div
+      className="user-section__photo"
+    >
+      <img
+        alt="name surname"
+        src="picture.jpg"
+      />
+    </div>
+    <div
+      className="user-section__name--wrapper"
+    >
+      <p
+        className="user-section__name--label"
+      >
+        Logged as:
+      </p>
+      <p
+        className="user-section__name"
+      >
+        name surname
+      </p>
+    </div>
+    <div
+      className="user-section__menu"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Log out
+      </button>
+    </div>
+  </div>
+</header>
+`;
